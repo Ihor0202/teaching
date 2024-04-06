@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-size: 3em;
+    color: black;
+}
+h1 {
+    font-size: 3rem;
+}
+p {
+    font-size: 1.5rem;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#red {
+    height: 100vh;
+    background-color: #ff3c3c;
+}
+#blue {
+    height: 100vh;
+    background-color: #5d5dff;
+}
+#green {
+    height: 100vh;
+    background-color: #6bff6b;
+}
