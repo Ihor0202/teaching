@@ -26,10 +26,9 @@ body {
 .forest-img {
     width: 50%;
     height: 100%;
-    /*display: flex;*/
-
 }
-.input {
+
+.form {
     width: 50%;
     height: 100%;
     background-color: white;
@@ -39,50 +38,100 @@ body {
     text-align: center;
     flex-direction: column;
 }
-button {
+.button1 {
     width: 80%;
     height: 20%;
     font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(217, 217, 217, 0.60);
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
 }
 /*-------------------------------------vw-vh-2------------------------------------*/
 .vw-vh-2 {
-    /*margin: 0;*/
-    /*width: 100%;*/
     height: 100vh;
     background-image: url("../Lesson 4 img/Rectangle 4.png");
     background-size: cover;
     background-position: center;
-}
-h1 {
-    font-size: 35px;
-}
-.p2 {
-    width: 949px;
-    height: 183px;
-    font-size: 35px;
+    display: flex;
+    justify-content: center;
 }
 .youtube {
-    /*margin: 105px 282px 380px 381px;*/
-    height: 100%;
+
+    height: 90%;
+    margin: 2% 0 2% 0;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
 }
 iframe {
-
-    /*margin: 0;*/
-    width: 949px;
+    width: 849px;
     height: 533px;
-    /*width: 66vw;*/
-    /*height: 50vh;*/
 }
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 849px;
+    height: 153px;
+}
+
+h1 {
+    font-size: 25px;
+}
+.p2 {
+    /*width: 849px;*/
+    /*height: 183px;*/
+    font-size: 25px;
+}
+
 /*-------------------------------------vw-vh-3------------------------------------*/
 .vw-vh-3 {
     height: 100vh;
     background-image: url("../Lesson 4 img/Rectangle 4.png");
     background-size: cover;
     background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
+.rocks {
+    width: 30%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(83, 83, 83, 0.40);;
+}
+.rocks-img {
+    margin-top: 10px;
+    width: 80%;
+}
+h2 {
+    margin-top: 5px;
+    font-size: 35px;
+}
+
+.p3 {
+    font-size: 35px;
+}
+.prise {
+    margin-top: 25px;
+}
+.button-rocks {
+    width: 80%;
+    height: 15%;
+    font-size: 30px;
+    color: #6B6666;
+    margin-bottom: 70px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(217, 217, 217, 0.60);
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
