@@ -55,16 +55,14 @@ span {
     color: grey;
 }
 .facebook-forgot {
-    margin: 0;
+    margin-top: 15px;
 }
 .facebook {
     width: 24px;
     height: 24px;
     margin-bottom: -5px;
 }
-/*.icon-text {*/
-/*    margin: 0;*/
-/*}*/
+
 a {
     text-decoration: none;
     margin-top: 15px;
