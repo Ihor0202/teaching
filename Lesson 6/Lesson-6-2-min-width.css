@@ -1,0 +1,17 @@
+@media screen and (min-width: 600px) and (max-width: 1100px){
+    header {
+        height: 15vh;
+    }
+    .main-aside {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    main {
+        height: 70vh;
+        width: 100%;
+    }
+    aside {
+        height: 15vh;
+        width: 100%;
+    }
+}

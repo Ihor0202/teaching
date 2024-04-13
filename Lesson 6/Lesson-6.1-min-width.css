@@ -1,0 +1,39 @@
+@media screen and (min-width: 10px) and (max-width: 599px){
+    * {
+        margin-top: 5px;
+    }
+    nav {
+        display: block;
+        height: 20vh;
+    }
+    a {
+        background-color: #00ff0d;
+        height: 20%;
+        margin-top: 5px;
+        display: block;
+        /*width: 100%;*/
+        text-align: center;
+    }
+    .banner {
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-article {
+        height: 85vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    article {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vh;
+        height: 20vh;
+        margin: 0;
+    }
+}

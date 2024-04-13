@@ -1,0 +1,21 @@
+@media screen and (min-width: 600px) and (max-width: 1100px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        height: 60vh;
+    }
+    .box {
+        width: 100%;
+    }
+    .box-b {
+        height: 75%;
+    }
+    article {
+        height: 25%;
+    }
+    aside {
+        height: 20vh;
+        width: 100%;
+    }
+
+}
